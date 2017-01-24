@@ -1,0 +1,37 @@
+{
+  "name": "react-transport",
+  "version": "1.0.0",
+  "description": "A React component for transporting child elements to other places in the DOM.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --entry ./app.jsx --output ./bundle.js",
+    "build": "webpack -p --entry ./index.jsx --output ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryzaguy/react-transport.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "transport",
+    "portal"
+  ],
+  "author": "bryzaguy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bryzaguy/react-transport/issues"
+  },
+  "homepage": "https://github.com/bryzaguy/react-transport#readme",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
